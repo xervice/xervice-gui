@@ -1,9 +1,11 @@
 {
   "name": "xervice-gui",
-  "version": "0.0.1",
-  "description": "Xervice",
+  "version": "1.0.0",
+  "description": "Xervice module file finder",
   "main": "./lib/xervice.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha tests/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xervice/xervice-gui.git"
@@ -18,6 +20,11 @@
   },
   "homepage": "https://github.com/xervice/xervice-gui#readme",
   "dependencies": {
-    "fs-finder": "^1.8.1"
+    "fs-finder": "^1.8.1",
+    "glob": "^7.1.2",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1"
   }
 }
